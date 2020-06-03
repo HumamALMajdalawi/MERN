@@ -1,0 +1,32 @@
+
+POST http://localhost:4000/api/register
+Content-Type: application/json
+
+{
+    "name":"Humam2",
+    "email":"humam2@gmail.com",
+    "password":"password2"
+}
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "email":"humam@gmail.com",
+    "password":"password"
+}
+
+###
+
+POST http://localhost:4000/logout
+Content-Type: application/json
+
+{
+    "_id":"5ea18a24546d551f708c6e5c"
+}
+
+###
+
+GET http://localhost:4000
